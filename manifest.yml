@@ -1,0 +1,14 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 2
+  domain: mybluemix.net
+  name: javatestaa11
+  host: javatestaa11
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
+  - API Connect-yo
+  env:
+    aak: aav
+    bbk: bbv
